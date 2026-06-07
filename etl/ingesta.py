@@ -1,10 +1,12 @@
 import requests
 import pymongo
 
+from config import MONGO_URI, DB_NAME, COLLECTION_NAME
+
 # --- CONEXIÓN A MONGODB ---
-client = pymongo.MongoClient("mongodb://localhost:27017/")
-db = client["taller4_db"]
-collection = db["raw_data"]
+client = pymongo.MongoClient(MONGO_URI)
+db = client[DB_NAME]
+collection = db[COLLECTION_NAME]
 
 collection.drop()
 print("Colección limpiada.\n")
