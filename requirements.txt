@@ -1,0 +1,6 @@
+requests
+pymongo
+pandas
+matplotlib
+seaborn
+jupyter
