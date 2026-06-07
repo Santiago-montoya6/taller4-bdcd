@@ -4,11 +4,12 @@
 Pipeline de Ciencia de Datos que consume la Dragon Ball API, almacena los datos crudos en MongoDB y realiza un análisis exploratorio (EDA) en Jupyter Notebook.
 
 ## API utilizada
-**Dragon Ball API** — https://dragonball-api.com  
+**Dragon Ball API** — https://web.dragonball-api.com/
 Datos de personajes, planetas y transformaciones del universo Dragon Ball.  
 Total registros: 121 documentos (58 personajes + 43 transformaciones + 20 planetas).
 
 ## Estructura del proyecto
+```text
 taller4-bdcd/
 ├── EDA/
 │   ├── analisis.ipynb
@@ -21,6 +22,7 @@ taller4-bdcd/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 ## Cómo ejecutarlo
 1. Instalar dependencias:
